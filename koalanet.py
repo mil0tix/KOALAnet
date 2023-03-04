@@ -385,6 +385,7 @@ class KOALAnet:
 				elif self.training_stage in [2, 3]:
 					rec_loss_temp, _, lr_per_epoch = self.sess.run([self.rec_loss, self.optimizer, self.reduced_lr], feed_dict)
 				rec_loss += rec_loss_temp
+
 			print('{:s}\t\tEpoch: [{}/{}], lr : {:.8}'.format((str(datetime.now())[:-7]), epoch, self.max_epoch, lr_per_epoch))
 
 			""" Validation """

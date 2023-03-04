@@ -13,11 +13,11 @@ def parse_args():
 	""" Training Settings """
 	parser.add_argument('--training_stage', type=int, default=3, choices=[1, 2, 3], help='Set stage for the 3-stage training strategy.')
 	parser.add_argument('--tensorboard', type=bool, default=True, help='If set to True, tensorboard summaries are created')
-	parser.add_argument('--training_data_path', type=str, default='./dataset/DIV2K/train/DIV2K_train_HR', help='training_dataset path')
-	parser.add_argument('--validation_data_path', type=str, default='./dataset/DIV2K/val/DIV2K_valid_HR', help='validation_dataset path')
+	parser.add_argument('--training_data_path', type=str, default='../dataset_custom/train', help='training_dataset path')
+	parser.add_argument('--validation_data_path', type=str, default='../dataset_custom/test', help='validation_dataset path')
 
 	""" Testing Settings """
-	parser.add_argument('--eval', type=bool, default=True, help='If set to True, evaluation is performed with HR images during the testing phase')
+	parser.add_argument('--eval', type=bool, default=False, help='If set to True, evaluation is performed with HR images during the testing phase')
 	parser.add_argument('--test_data_path', type=str, default='./testset/Set5/LR/X4/imgs', help='test dataset path')
 	parser.add_argument('--test_label_path', type=str, default='./testset/Set5/HR', help='test dataset label path for eval')
 	parser.add_argument('--test_ckpt_path', type=str, default='./pretrained_ckpt', help='checkpoint path with trained weights')

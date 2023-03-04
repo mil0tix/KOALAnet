@@ -1,0 +1,205 @@
+----- Model parameters -----
+[2023-02-26 13:57:45] 
+phase : train
+factor : 4
+training_stage : 1
+tensorboard : True
+training_data_path : ./dataset_custom/train
+validation_data_path : ./dataset_custom/test
+eval : False
+test_data_path : ./testset/Set5/LR/X4/imgs
+test_label_path : ./testset/Set5/HR
+test_ckpt_path : ./pretrained_ckpt
+test_patch : [1, 1]
+channels : 3
+bicubic_size : 20
+gaussian_size : 15
+down_kernel : 20
+up_kernel : 5
+anti_aliasing : False
+max_epoch : 2000
+batch_size : 8
+val_batch_size : 4
+patch_size : 64
+val_patch_size : 100
+lr : 0.0001
+lr_type : stair_decay
+lr_stair_decay_points : [1600, 1800]
+lr_stair_decay_factor : 0.1
+lr_linear_decay_point : 100
+Qsize : 50
+n_display : 4
+
+
+epoch	l1_loss	PSNR
+----- Model parameters -----
+[2023-02-26 14:30:51] 
+phase : train
+factor : 4
+training_stage : 1
+tensorboard : True
+training_data_path : ./dataset_custom/train
+validation_data_path : ./dataset_custom/test
+eval : False
+test_data_path : ./testset/Set5/LR/X4/imgs
+test_label_path : ./testset/Set5/HR
+test_ckpt_path : ./pretrained_ckpt
+test_patch : [1, 1]
+channels : 3
+bicubic_size : 20
+gaussian_size : 15
+down_kernel : 20
+up_kernel : 5
+anti_aliasing : False
+max_epoch : 2000
+batch_size : 8
+val_batch_size : 4
+patch_size : 64
+val_patch_size : 100
+lr : 0.0001
+lr_type : stair_decay
+lr_stair_decay_points : [1600, 1800]
+lr_stair_decay_factor : 0.1
+lr_linear_decay_point : 100
+Qsize : 50
+n_display : 4
+
+
+epoch	l1_loss	PSNR
+----- Model parameters -----
+[2023-02-26 14:34:20] 
+phase : train
+factor : 4
+training_stage : 1
+tensorboard : True
+training_data_path : ../dataset_custom/train
+validation_data_path : ../dataset_custom/test
+eval : False
+test_data_path : ./testset/Set5/LR/X4/imgs
+test_label_path : ./testset/Set5/HR
+test_ckpt_path : ./pretrained_ckpt
+test_patch : [1, 1]
+channels : 3
+bicubic_size : 20
+gaussian_size : 15
+down_kernel : 20
+up_kernel : 5
+anti_aliasing : False
+max_epoch : 2000
+batch_size : 8
+val_batch_size : 4
+patch_size : 64
+val_patch_size : 100
+lr : 0.0001
+lr_type : stair_decay
+lr_stair_decay_points : [1600, 1800]
+lr_stair_decay_factor : 0.1
+lr_linear_decay_point : 100
+Qsize : 50
+n_display : 4
+
+
+epoch	l1_loss	PSNR
+----- Model parameters -----
+[2023-02-26 14:37:29] 
+phase : train
+factor : 4
+training_stage : 1
+tensorboard : True
+training_data_path : ../dataset_custom/train
+validation_data_path : ../dataset_custom/test
+eval : False
+test_data_path : ./testset/Set5/LR/X4/imgs
+test_label_path : ./testset/Set5/HR
+test_ckpt_path : ./pretrained_ckpt
+test_patch : [1, 1]
+channels : 3
+bicubic_size : 20
+gaussian_size : 15
+down_kernel : 20
+up_kernel : 5
+anti_aliasing : False
+max_epoch : 2000
+batch_size : 8
+val_batch_size : 4
+patch_size : 64
+val_patch_size : 100
+lr : 0.0001
+lr_type : stair_decay
+lr_stair_decay_points : [1600, 1800]
+lr_stair_decay_factor : 0.1
+lr_linear_decay_point : 100
+Qsize : 50
+n_display : 4
+
+
+epoch	l1_loss	PSNR
+----- Model parameters -----
+[2023-03-03 09:46:07] 
+phase : train
+factor : 4
+training_stage : 1
+tensorboard : True
+training_data_path : ../dataset_custom/train
+validation_data_path : ../dataset_custom/test
+eval : False
+test_data_path : ./testset/Set5/LR/X4/imgs
+test_label_path : ./testset/Set5/HR
+test_ckpt_path : ./pretrained_ckpt
+test_patch : [1, 1]
+channels : 3
+bicubic_size : 20
+gaussian_size : 15
+down_kernel : 20
+up_kernel : 5
+anti_aliasing : False
+max_epoch : 2000
+batch_size : 8
+val_batch_size : 4
+patch_size : 64
+val_patch_size : 100
+lr : 0.0001
+lr_type : stair_decay
+lr_stair_decay_points : [1600, 1800]
+lr_stair_decay_factor : 0.1
+lr_linear_decay_point : 100
+Qsize : 50
+n_display : 4
+
+
+epoch	l1_loss	PSNR
+----- Model parameters -----
+[2023-03-03 10:12:23] 
+phase : train
+factor : 4
+training_stage : 1
+tensorboard : True
+training_data_path : ../dataset_custom/train
+validation_data_path : ../dataset_custom/test
+eval : False
+test_data_path : ./testset/Set5/LR/X4/imgs
+test_label_path : ./testset/Set5/HR
+test_ckpt_path : ./pretrained_ckpt
+test_patch : [1, 1]
+channels : 3
+bicubic_size : 20
+gaussian_size : 15
+down_kernel : 20
+up_kernel : 5
+anti_aliasing : False
+max_epoch : 2000
+batch_size : 8
+val_batch_size : 4
+patch_size : 64
+val_patch_size : 100
+lr : 0.0001
+lr_type : stair_decay
+lr_stair_decay_points : [1600, 1800]
+lr_stair_decay_factor : 0.1
+lr_linear_decay_point : 100
+Qsize : 50
+n_display : 4
+
+
+epoch	l1_loss	PSNR
+5	0.01238	42.39
